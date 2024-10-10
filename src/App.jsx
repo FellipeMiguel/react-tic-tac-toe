@@ -1,0 +1,16 @@
+import Player from "./components/Player.jsx";
+
+const App = () => {
+  return (
+    <main>
+      <div id="game-container">
+        <ol id="players">
+          <Player name={"Player 1"} symbol={"x"} />
+          <Player name={"Player 2"} symbol={"O"} />
+        </ol>
+      </div>
+    </main>
+  );
+};
+
+export default App;
